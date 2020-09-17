@@ -111,7 +111,7 @@ public class SwiftFlutterBarcodeScannerPlugin: NSObject, FlutterPlugin, ScanBarc
                                 
                             }
                         } else {
-                            let alert = UIAlertController(title: "アクセスの許可が必要です", message: "QRコードを読み取るためにはこのアプリのカメラへのアクセスを許可する必要があります", preferredStyle: .alert)
+                            let alert = UIAlertController(title: "アクセスの許可が必要です", message: "QRを読み取るためにはこのアプリのカメラへのアクセスを許可する必要があります", preferredStyle: .alert)
                             
                             alert.addAction(UIAlertAction(title: "許可する", style: .default, handler: { action in
                                 UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)

@@ -23,11 +23,11 @@ PLEASE FOLLOW **iOS** STEPS CAREFULLY
 
 ### iOS - Requires Swift support
 
-Deployment target : 11
+Deployment target : 12
 
 #### 1. Fresh start: 
  1. Create a new flutter project. Please check for **Include swift support for iOS code**.
- 2. After creating new flutter project open `/ios` project in Xcode and set minimum **deployment target to 11**
+ 2. After creating new flutter project open `/ios` project in Xcode and set minimum **deployment target to 12**
     and set **Swift version to 5**.
  3. After setting up the deployment target and swift version, close the Xcode then run **pod install** in `/ios` in flutter project.
  
@@ -35,14 +35,14 @@ Deployment target : 11
  
 #### 2. Adding to existing flutter app: 
 #### If your existing ios code is **Swift** then you just need to do following.
-  1. Set **minimum deployment target to 10** and set **Swift version to 5**.
+  1. Set **minimum deployment target to 12** and set **Swift version to 5**.
   2. Close the Xcode and run **pod install** in `/ios` in flutter project.
   3. Now proceed to section **How to use**.
  
 #### If your existing ios code is **Objective-C** then you need to do following.
   1. Create a new flutter project with same name at different location (Don't forget to check **Include swift support for iOS code** while creating) 
   2. Just copy newly created `/ios` folder from project and replace with existing `/ios`.
-  3. Open ios project in Xcode and set **minimum deployment target to 11** and set **Swift version to 5**.
+  3. Open ios project in Xcode and set **minimum deployment target to 12** and set **Swift version to 5**.
   4. Run **pod install** in `/ios` 
     
 **Note: If you did any changes in ios part before, you might need to make these configuration again**
@@ -62,7 +62,7 @@ After making the changes in Android ans iOS add flutter_barcode_scanner to `pubs
 ```  
 dependencies:
   ...
-  flutter_barcode_scanner: ^1.0.1
+  flutter_barcode_scanner: ^2.0.0
 ```
 
 ### One time scan
@@ -111,26 +111,7 @@ FlutterBarcodeScanner.getBarcodeStreamReceiver("#ff6666", "Cancel", false, ScanM
 
 ### Contribution:
 
-would :heart: to see any contribution 
-
-### Appreciate:
-If you like my work :star: repo also you can appreciate by
-
-<p>
- <table style="border-spacing: 5px 10px;">
-
- <tr>
-  <td>
-<a href="https://www.buymeacoffee.com/AmolGangadhare"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="max-width:90%;" width="200" height="60"></a>
-</td>
-
-  <td style="margin: 10px">
-<a href="https://www.paypal.me/AmolGangadhareIN"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" alt="PayPal Logo"
-style="max-width:90%;" width="200" height="60">
- </td>
- </tr>
- </table>
-</p> 
+would :heart: to see any contribution, give :star:  if you like
 
 ### Contact:
 
